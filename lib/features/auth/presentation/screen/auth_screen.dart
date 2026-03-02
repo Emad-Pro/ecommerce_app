@@ -241,7 +241,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   textDirection: TextDirection.ltr,
                   child: IntlPhoneField(
                     languageCode: "ar",
-
+                    searchText: "البحث عن الدولة",
                     inputFormatters: [FilteringTextInputFormatter.allow(RegExp(r'[0-9]'))],
                     decoration: InputDecoration(
                       hintText: '5X XXX XXXX',
